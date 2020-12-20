@@ -1,20 +1,7 @@
-> NOTE: this is the official description of the project written by Mr. [Antoine Zimmermann](https://www.emse.fr/~zimmermann/).
 
 
 # Web semantic project about a bicycle station sharing system
-# Semantic Web project
-The Semantic Web project is a large and long practical exercise that consists in integrating all the pieces that have been seen during the first sessions into a consolidated Web application. To make sure you can advance sufficiently fast to cover everything, you are allowed to work by pair.
 
-## Main objective
-+ Make a Web application for finding available bicycles, using open data from the bicycle sharing systems of many cities.
-+ Make it extensible to new cities as easily as possible.
-+ Extend the application to provide availability of other smart city resources, such as parking places, carsharing services, etc.
-+ Link the data with other data sources, such as information on the public transport systems or touristic data.
-## Pedagogical objectives
-+ Do a little software development, using Semantic Web programming frameworks
-+ Setup and interact with an RDF database
-+ Exploit multiple sources of heterogeneous data
-+ Present information online with rich metadata
 
 ## Build a database of bicycle-sharing stations
 Get open data about bicycle-sharing systems from as many cities as possible. Here is a list of cities that have data on their bicycle-sharing system:
@@ -33,8 +20,7 @@ Paris
 Real time data. See also Paris open data portal.
 You can find other data sets for bicycle-sharing systems all over the world by consulting the list of bicycle-sharing systems from Wikipedia. For France specifically, there is a list that contains more details. The open data portal of the French government has data about many bicycle-sharing systems that you can get by going to https://transport.data.gouv.fr/gbfs/city_name_lowercase/station_status.json. For instance https://transport.data.gouv.fr/gbfs/toulouse/station_status.json for Toulouse. Bicycle-sharing systems that are operated by company JC Decaux have data available using a single API with URLs of the form https://api.jcdecaux.com/vls/v1/stations?contract=Cityname&apiKey=your_API_key. You need to register an API key to use it.
 
-## Todos
-Here is a list of steps that you have to do to have at least a minimal application. You are free to do more in order to realise the main objectives of the application, and make it user-friendly.
+
 
 + Setup a triplestore. The simplest is to use Apache Jena Fuseki, but you may also install a OpenLink's Virtuoso server (triplestore used by DBpedia in its backend) or Blazegraph (triplestore used by Wikidata) or Stardog (another commercial triplestore that has a free version). A list of triplestores is available on Wikipedia.
 + Define or reuse a vocabulary for describing bicycle-sharing stations and their availability.
