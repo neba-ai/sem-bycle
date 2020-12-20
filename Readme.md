@@ -15,12 +15,6 @@ The Semantic Web project is a large and long practical exercise that consists in
 + Setup and interact with an RDF database
 + Exploit multiple sources of heterogeneous data
 + Present information online with rich metadata
-## Timeline
-The project starts on Friday 18th October 2019. You will be working on your project full time during the last three weeks.
-
-On the 13th December 2019, you will present your work in front of the class (8 min per pair of students). You must deliver all your files at this date.
-
-You will have the possibility to send me an updated version of your project on the 20th January 2020 at the latest. This last delivery is optional, and the earlier you deliver, the better.
 
 ## Build a database of bicycle-sharing stations
 Get open data about bicycle-sharing systems from as many cities as possible. Here is a list of cities that have data on their bicycle-sharing system:
@@ -55,4 +49,3 @@ The previous steps constitute the bare minimal. You should then try to extend yo
 + store the history of availabilities, and provide statistics;
 + use weather or air quality data as well;
 + provide a trip planning functionality (go from Place 1 to Place 2 by taking the available bike closest to Place  and bringing it to the station with available space, closest to Place 2).
-
